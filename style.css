@@ -5,12 +5,13 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
 
   #calculator
   {
     background-color: lightgray;
-    height:450px;
+    height:400px;
     width:300px;
     padding: 30px;
     border-radius: 15px;
@@ -22,39 +23,48 @@ body {
     width:250px;
     border-radius: 10px;
     margin-bottom: 30px;
+    margin-left:18px;
     font-weight: bold;
     font-size: 21px;
     
   }
   
-  .number, .operator, #clear, #equal
+  .number, .operator, #equal
   {
-    
+   width:50px; 
     margin:10px;
-    font-size: 30px;
+    font-size: 24px;
     padding: 10px;
-    color:white;
     font-weight: bold;
-    border-radius: 10px;
+    border: 0px;
+    border-radius: 50%;
   }
 
+ 
   .number
   {
-    background-color: rgb(194, 91, 148);
+    background-color: rgb(148, 119, 135);
   }
 
   .operator
   {
-    background-color: green;
+    background-color:#F5F5DC
   }
   
   #clear
   {
-    width: 250px;
-    background-color: red;
+    width: 100px;
+    text-align: center;
+    background-color:red;
+    margin-top: 20px;
+    margin-left:100px;
+    font-size: 30px;
+    border-radius: 15px;
+    border: 0px;
   }
 
   #equal
   {
-    background-color: blue;
+    background-color:black;
+    color:white
   }
