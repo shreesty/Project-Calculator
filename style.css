@@ -10,7 +10,7 @@ body {
   #calculator
   {
     background-color: lightgray;
-    height:400px;
+    height:450px;
     width:300px;
     padding: 30px;
   }
@@ -48,6 +48,7 @@ body {
   
   #clear
   {
+    width: 250px;
     background-color: red;
   }
 
